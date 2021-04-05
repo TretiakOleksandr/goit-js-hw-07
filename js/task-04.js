@@ -8,8 +8,8 @@
 
 let counterValue = 0;
 const valueEl = document.querySelector('#value');
-const decrementBtnEl = document.querySelector('button[data-action=decrement]');
-const incrementBtnEl = document.querySelector('button[data-action=increment]');
+const decrementBtnEl = document.querySelector('button[data-action="decrement"]');
+const incrementBtnEl = document.querySelector('button[data-action="increment"]');
 
 function increment() {
     counterValue += 1;
