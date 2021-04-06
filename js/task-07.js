@@ -8,6 +8,5 @@ const outputEl = document.querySelector('#text');
 inputEl.addEventListener('input', onChangeInput);
 
 function onChangeInput(event) {
-    console.log(event.currentTarget.value);
     outputEl.style.fontSize = event.currentTarget.value + 'px';
 }
